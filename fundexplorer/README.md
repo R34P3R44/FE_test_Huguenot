@@ -5,7 +5,6 @@
 A simple React + TypeScript web app for browsing and filtering investment funds.  
 Users can switch between **list** and **grid** views and filter results by **region** and **domicile**.
 
----
 
 ## 📸 Screenshots
 
