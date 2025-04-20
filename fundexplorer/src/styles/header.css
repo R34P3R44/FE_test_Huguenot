@@ -1,0 +1,87 @@
+.header {
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 12rem 2rem 14rem;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1c2d5a;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: #0099a8;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.profile-button {
+    border: 1px solid #009E99;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #1c2d5a;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.nav-wrapper {
+    display: flex;
+    min-width: 35vw;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-icon{
+    background-color: #009E99;
+    border-radius: 50%;
+    margin: 0.2rem;
+    width: 2em;
+    height: 2em;
+    padding: 0.2rem;
+}
+
+.chevron-icon {
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+
+.chevron-icon{
+    margin-left: 0.5rem;
+    vertical-align: middle
+}

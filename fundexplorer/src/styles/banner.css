@@ -1,0 +1,45 @@
+.page-title{
+    font-family: Cambria, serif ;
+}
+
+.banner {
+    background-image: url('/BG.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 1rem 14rem;
+  }
+  
+  .breadcrumb {
+    color: var(--white);
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding: 0 0.5rem 3rem 0;
+  }
+
+  .breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    font-weight: lighter;
+    padding: 0;
+    font-size: 0.75rem;
+  }
+
+  .breadcrumb li:first-child {
+    text-decoration: underline;
+  }
+
+  .breadcrumb span {
+    padding: 0 0.5rem;
+  }
+  
+  .page-title {
+    font-size: 3.2rem;
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 2rem;
+  }

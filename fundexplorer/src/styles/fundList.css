@@ -1,0 +1,85 @@
+.fund-row,
+.fund-list-header {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr auto;
+  padding: 0.50rem 1rem 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.fund-row:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.fund-list-header span{
+  font-weight: bolder;
+  font-style: italic;
+  font-family: Cambria, serif;
+  font-size: 1.1rem;
+}
+
+.fund-row-first{
+  margin-right: 1rem;
+}
+
+.horizontal-divider {
+  width: 100%;
+  background-color: var(--light-warm-grey-500);
+  margin: 0rem 0rem 2rem 0rem;
+  height: 1px;
+}
+
+
+.fund-row{
+  background-color: var(--white);
+  margin: 0.5rem 0rem 1rem 0rem;
+  padding: 1rem;
+}
+
+.fund-name {
+  font-family: Cambria, serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--navy)
+}
+
+.fund-row-inner{
+  display: flex;
+  flex-direction: row;
+}
+
+.fund-row span{
+  font-family: 'Tahoma', sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--navy);
+  padding: 0rem 0rem 0rem 1.5rem
+}
+
+.fund-benchmark{
+  color: var(--light-warm-grey-800);
+  font-family: 'Tahoma', sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.fund-row-icon {
+  background-color: var(--white);
+  border-radius: 50%;
+  border: 1px solid var(--teal);
+  margin: 0.2rem;
+  width: 2em;
+  height: 2em;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--teal)
+}
+
+.fund-row-icon-container {
+  display: flex;
+  align-items: center;
+}

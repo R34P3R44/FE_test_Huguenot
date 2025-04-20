@@ -1,0 +1,110 @@
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.search-wrapper {
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid var(--light-warm-grey-500);
+}
+
+.search-wrapper span {
+  position: absolute;
+  left: 16px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  height: 5vh;
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 3rem;
+  font-size: 1rem;
+  background-color: var(--white);
+  border: none;
+  outline: none;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  border: none;
+  outline: none;
+  color: black
+
+}
+
+.view-buttons {
+  display: flex;
+  border-radius: 25px;
+  border: 1px solid var(--light-warm-grey-500);
+  height: 3.5em;
+  justify-content: space-between;
+  background-color: var(--white);
+  margin: 0rem
+}
+
+.grid-view-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  background-color: white;
+  cursor: pointer;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--navy);
+  font-family: 'Tahoma', sans-serif;
+  justify-content: space-between;
+  margin-right: 1px;
+}
+
+.list-view-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  background-color: white;
+  cursor: pointer;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--navy);
+  font-family: 'Tahoma', sans-serif;
+  justify-content: space-between;
+}
+
+.list-view-btn.active, .grid-view-btn.active{
+  outline: 1px solid var(--teal);
+}
+
+.views-button-icons {
+  background-color: #009E99;
+  border-radius: 50%;
+  margin: 0.2rem;
+  width: 2em;
+  height: 2em;
+  padding: 0.5rem;
+}
